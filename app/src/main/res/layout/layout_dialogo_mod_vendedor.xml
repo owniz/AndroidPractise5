@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dialogTextViewNombre"
+            android:text="@string/nombre_"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dialogTextViewApellidos"
+            android:text="@string/apellidos"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <EditText
+            android:id="@+id/editTextApellidos"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dialogTextViewEdad"
+            android:text="@string/edad"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="0.7"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/dialogTextViewTelefono"
+            android:text="@string/telefono"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"/>
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:textSize="@dimen/dimen16sp"
+            android:layout_width="@dimen/dimen0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="0.7"/>
+
+    </LinearLayout>
+
+</LinearLayout>
